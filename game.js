@@ -1,5 +1,5 @@
 function game() {
-    let numRnd = Math.floor(Math.random() * 2);
+    let numRnd = Math.floor(Math.random() * 10);
 
     let userNum = document.getElementById("userNumber").value;
     if (numRnd == userNum) {
